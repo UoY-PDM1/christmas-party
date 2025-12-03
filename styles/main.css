@@ -1,0 +1,89 @@
+body {
+    display:flex;
+    flex-direction: column;
+    padding: 5%;
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#snowflakes {
+    position: fixed;
+    z-index:-1;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+#snowflakes > img {
+    position: relative;
+    top: -100px;
+}
+
+#snow1 {
+    animation: fall 10s ease-out 3s infinite;
+}
+
+#snow2 {
+    animation: fall 9s ease-out 1.5s infinite;
+}
+
+#snow3 {
+    animation: fall 12s ease-out 2s infinite;
+}
+
+#snow4 {
+    animation: fall 8s ease-out 5s infinite;
+}
+
+#snow5 {
+    animation: fall 8s ease-out 3s infinite;
+}
+
+#snow6 {
+    animation: fall 10s ease-out 1s infinite;
+}
+
+#snow7 {
+    animation: fall 9s ease-out 7s infinite;
+}
+
+#snow8 {
+    animation: fall 10s ease-out 3.5s infinite;
+}
+
+#snow9 {
+    animation: fall 7s ease-out 1s infinite;
+}
+
+#snow10 {
+    animation: fall 12s ease-out 0s infinite;
+}
+
+#snow11 {
+    animation: fall 8s ease-out 6s infinite;
+}
+
+#snow12 {
+    animation: fall 9s ease-out 3s infinite;
+}
+
+#snow13 {
+    animation: fall 10s ease-out 4s infinite;
+}
+
+#snow14 {
+    animation: fall 9s ease-out 2s infinite;
+}
+
+@keyframes fall {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 100vh;
+    }
+}
