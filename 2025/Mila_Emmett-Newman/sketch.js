@@ -18,7 +18,7 @@ function preload() {
     fore1 = loadImage("./assets/fore1.png");
     fore2 = loadImage("./assets/fore2.png");
     fore3 = loadImage("./assets/fore3.png");
-    fore4 = loadImage("./assets/fore4.png");
+    fore4 = loadImage("./assets/fore4.PNG");
     fore5 = loadImage("./assets/fore5.png");
 }
 
