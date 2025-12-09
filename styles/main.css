@@ -1,9 +1,14 @@
 body {
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 5%;
     background-color: aliceblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    margin:0;
 }
 
 #snowflakes {
@@ -86,4 +91,19 @@ body {
     to {
         top: 100vh;
     }
+}
+
+#vote {
+    max-width: 20%;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+#vote p {
+    text-align: center;;
+}
+
+#vote img {
+    width: 100%;
 }
