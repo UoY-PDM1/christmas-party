@@ -98,7 +98,6 @@ body {
     align-self: flex-end;
     display: flex;
     flex-direction: column;
-    visibility: hidden;
 }
 
 #vote p {
