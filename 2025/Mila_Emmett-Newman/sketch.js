@@ -1,7 +1,7 @@
 // before you read this, yes i am aware that a camera function exists in p5.js. i only found out after basically completing this.
 // this took forever.
 
-let layers = []
+let layers = [] 
 
 // technically the code runs without this and idk why but i left it in anyway
 let bgImg;
